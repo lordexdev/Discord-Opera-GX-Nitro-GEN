@@ -10,4 +10,4 @@
 
 [![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/@LordeX/Opera-GX-Nitro-GEN?v=1)
 
-![LOVE YOU HANNAHHHHH](https://i.hizliresim.com/nxdt60u.png)
+![LOVE YOU HANNAHHHHH](https://i.hizliresim.com/ottzct6.png)
