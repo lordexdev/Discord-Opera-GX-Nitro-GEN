@@ -3,6 +3,9 @@ import requests
 import time
 import string
 import random
+import os
+
+os.system("clear")
 
 with open('api.json', 'r') as start_file:
     start_data = json.load(start_file)
@@ -23,6 +26,15 @@ def get_random_user_agent():
         return user_agents[random.randint(0, len(user_agents) - 1)]
     else:
         return None
+
+banner="""
+ \033[91m █████╗ ██████╗ ██╗   ██╗ ██████╗ ██████╗ ██████╗ ██████╗ 
+\033[91m██╔══██╗██╔══██╗██║   ██║██╔════╝██╔═══██╗██╔══██╗██╔══██╗
+\033[91m███████║██████╔╝██║   ██║██║     ██║   ██║██████╔╝██║  ██║
+\033[91m██╔══██║██╔══██╗██║   ██║██║     ██║   ██║██╔══██╗██║  ██║
+\033[91m██║  ██║██║  ██║╚██████╔╝╚██████╗╚██████╔╝██║  ██║██████╔╝
+\033[91m╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝                                                     
+"""
 
 def start_process():
     url = 'https://api.discord.gx.games/v1/direct-fulfillment'
